@@ -13,3 +13,55 @@ SOLO Bench is a benchmark that tasks LLMs to create 250 unique sentences, each e
 - Difficulty can easily be adjusted with a single line change
 - An evaluation costs less than $0.05 for most models
 - Does not need a complicated evaluation harness or even an API to run
+
+### How to Use
+
+The benchmark can be directly run by copying all the contents of SOLO_Bench_Input.txt into the prompt of any LLM. Paste the LLM output into eval.txt and run SOLO_Bench.py to evaluate its performance.
+
+Alternatively you can use SOLO_Bench_OpenRouter.py to run and evaluate any model on OpenRouter. Note you will need an API key for non-free models. Use --model=modelname on the command line to specify a model.
+
+### Additional notes
+
+There can be significant variation in scores from run-to-run. Ideally the benchmark would be evaluated as AVG@5 but I have not done that at this stage.
+
+### Rankings at of 5/1/2025
+**SOLO Bench - Easy**
+| Model Name                                        | Score   |
+|---------------------------------------------------|---------|
+| gemini2.5-pro                                     | 74.80%  |
+| o3                                               | 56.40%  |
+| claude-3.7-sonnet:thinking                        | 34.00%  |
+| grok-3-beta                                       | 31.20%  |
+| deepseek-r1                                       | 28.40%  |
+| gpt4.5                                           | 26.80%  |
+| deepseek-chat-v3-0324                             | 20.00%  |
+| gemini-2.5-flash-preview:thinking                 | 16.80%  |
+| gpt-4.1                                          | 9.20%   |
+| llama-3.1-nemotron-ultra-253b-v1:free             | 8.00%   |
+| qwen3-32b:free                                    | 5.20%   |
+| qwen2.5-vl-72b-instruct:free                      | 5.20%   |
+| llama-4-maverick:free                             | 4.00%   |
+| qwen3-235b-a22b                                   | 1.20%   |
+| gemma-3-27b-it:free                               | 1.20%   |
+| llama-3.3-70b-instruct                            | 0.40%   |
+| gemma-3-4b-it:free                                | 0.00%   |
+| qwen3-8b:free                                     | 0.00%   |
+| llama-3.1-405b-instruct                           | 0.00%   |
+| o4-mini-high*                                     | 0.00%   |
+| llama-3.3-70b-instruct                            | 0.00%   |
+| llama-4-scout                                     | 0.00%   |
+
+
+&nbsp;
+&nbsp;
+
+**SOLO Bench - Medium**
+| Model Name                        | Score   |
+|-----------------------------------|---------|
+| gemini2.5-pro*                    | 57.80%  |
+| claude-3.7-sonnet:thinking        | 13.60%  |
+| deepseek-r1*                      | 11.80%  |
+| o3*                               | 8.20%   |
+| gpt4.5*                           | 5.80%   |
+| grok-3-beta                       | 3.80%   |
+
