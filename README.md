@@ -4,7 +4,7 @@ SOLO Bench is a benchmark that tasks LLMs to create 250 unique sentences, each e
 
 ### SOLO Bench aims to address the shortcomings of other LLM benchmarks and has the following features:
 
-- Fully open-source for anyone to use
+- MIT open-source license
 - No single correct answer means it cannot be easily gamed or benchmaxxed
 - Tests for medium context (10k tokens) input and output (2-8k tokens)
 - Does not use LLM-as-a-judge or Human rating which is increasingly biased
