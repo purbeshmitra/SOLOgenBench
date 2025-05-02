@@ -2,7 +2,7 @@ Create 250 sentences that adhere to the following rules:
 1. Must only use words exactly as they appear in the below word list.
 2. Each word can only be used once. Once a word is used it cannot be re-used in other sentences
 3. Each sentence must follow this structure: Verb + Adjective + Noun + Noun 
-4. Each question must contain exactly 4 words 
+4. Each sentence must contain exactly 4 words 
 5. Do not use any tools or code to accomplish the task
 6. Do not output the entire word list in your thinking stage, it is too long and you will run out of thinking tokens
 7. Return only a numbered list with one sentence on each line
