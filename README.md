@@ -41,14 +41,13 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 | llama-3.1-nemotron-ultra-253b-v1:free             | 8.00%   |
 | qwen3-32b:free                                    | 5.20%   |
 | qwen2.5-vl-72b-instruct:free                      | 5.20%   |
+| llama-3.1-405b-instruct                           | 4.40%   |
 | llama-4-maverick:free                             | 4.00%   |
 | gemma-3-27b-it:free                               | 1.20%   |
 | llama-3.3-70b-instruct                            | 0.40%   |
 | gemma-3-4b-it:free                                | 0.00%   |
 | qwen3-8b:free                                     | 0.00%   |
-| llama-3.1-405b-instruct                           | 0.00%   |
 | o4-mini-high*                                     | 0.00%   |
-| llama-3.3-70b-instruct                            | 0.00%   |
 | llama-4-scout                                     | 0.00%   |
 * o4-mini-high refused to provide an answer
 
