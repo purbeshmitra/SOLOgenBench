@@ -1,6 +1,6 @@
 ### What is it?
 
-SOLO Bench is a benchmark that tasks LLMs to create 250 unique sentences, each exactly four words long in a specific grammatical format, using only words from a provided list of ~4,000 words. Each word from the list can only be used once across all sentences, and must be completed without external tools or code. This test aims to evaluate long-context (input and output) performance, memory, instruction following, reasoning, and hallucinations all in a single benchmark. It proves to be a very difficult task for all LLMs.
+SOLO Bench is a benchmark that tasks LLMs to create 250 unique sentences, each exactly four words long in a specific grammatical format, using only words from a provided list of ~4,000 words. Each word from the list can only be used once across all sentences, and must be completed without external tools or code. This test aims to evaluate long-context (input and output) performance, memory, instruction following, reasoning, and hallucinations all in a single benchmark. It proves to be a very difficult task for all LLMs. The EASY version requests 250 sentences while MEDIUM requests 500. The benchmark gets signifcantly more difficult as the number of sentences requested increases. The HARD version is not needed yet as LLMs aren't able to score well on medium yet. 
 
 ### SOLO Bench aims to address the shortcomings of other LLM benchmarks and has the following features:
 
@@ -64,4 +64,6 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 | o3*                               | 8.20%   |
 | gpt4.5*                           | 5.80%   |
 | grok-3-beta                       | 3.80%   |
+
+* Models did not output all 500 sentences
 
