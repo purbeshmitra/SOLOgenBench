@@ -50,7 +50,7 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 | o4-mini-high*                                     | 0.00%   |
 | llama-3.3-70b-instruct                            | 0.00%   |
 | llama-4-scout                                     | 0.00%   |
-
+* o4-mini-high refused to provide an answer
 
 &nbsp;
 &nbsp;
