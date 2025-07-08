@@ -21,7 +21,7 @@ A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). It has
 ### How to Use
 
 1. Run `sgb_generation.py` to generate the prompt, which will be available at `sgb_input.txt`. 
-2. This prompt contains instruction along with the generated word list and can be directly fed to LLM for generating a response. 
+2. This prompt contains instructions along with the generated word list and can be directly fed to LLM for generating a response. 
 3. Copy and paste the LLM generated response to `sgb_response.txt`.
 4. Run `sgb_eval.py` for getting the evaluation score.
 
