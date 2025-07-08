@@ -50,4 +50,4 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 
 *o4-mini tried using code once and that run is not considered
 
-**Note: Only Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed propoer response format. All the other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Those outpus were manually extracted.**
+**Note: Only GPT-4o, Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed accurate response format. All other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Responses from those outputs were manually extracted.**
