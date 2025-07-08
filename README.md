@@ -31,8 +31,8 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 
 ### Rankings at of July 8, 2025
 **SOLOgenBench - 400 words of 5 letters each, 4 groups, 50 sentences**
-| Model Name                                        | Score   |
-|---------------------------------------------------|---------|
+| Model Name               | Score   |
+|--------------------------|---------|
 |GPT-4o | 30% |
 |o4-mini* | 56% |
 |GPT-4.1-mini | 20% |
@@ -48,6 +48,6 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 |Mistral | 14% |
 |Mistral-thinking | 98% |
 
-* o4-mini tried using code once and that run is not considered
+*o4-mini tried using code once and that run is not considered
 
 **Note: Only Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed propoer response format. All the other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Those outpus were manually extracted.**
