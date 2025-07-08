@@ -3,11 +3,11 @@ import string
 import json
 
 # --- Configuration ---
-NUM_WORDS = 1000
-WORD_LENGTH = 7
+NUM_WORDS = 400
+WORD_LENGTH = 5
 NUM_GROUPS = 4
 GROUP_ORDER = [4, 1, 3, 2]
-NUM_SENTENCES_TO_GENERATE = 100
+NUM_SENTENCES_TO_GENERATE = 50
 
 def generate_word_list_and_prompt():
     """

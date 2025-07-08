@@ -28,3 +28,25 @@ A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). It has
 ### Additional notes
 
 There can be significant variation in scores from run-to-run. Ideally the benchmark would be evaluated as AVG@5 but I have not done that at this stage.
+
+### Rankings at of July 8, 2025
+**SOLOgenBench - 400 words of 5 letters each, 4 groups, 50 sentences**
+| Model Name                                        | Score   |
+|---------------------------------------------------|---------|
+|GPT-4o | 30% |
+|o4-mini* | 56% |
+|GPT-4.1-mini | 20% |
+|Claude-Sonnet-4 | 96% |
+|Gemini-2.5-flash | 100% |
+|Gemini-2.5-pro | 100% |
+|Grok-3 | 90% |
+|Grok-3-thinking | 96% |
+|Deepseek-v3 | 32% |
+|Deepseek-r1 | 64% |
+|Qwen3-235B-A22B | 10% |
+|Qwen3-235B-A22B | 92% |
+|Mistral | 14% |
+|Mistral-thinking | 98% |
+*o4-mini tried using code once and that run is not considered
+
+**Also, only Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed propoer response format. All the other models responded with extra exlanation, like, "Sure, here are 50 sentences..."**
