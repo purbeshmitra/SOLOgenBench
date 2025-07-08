@@ -47,6 +47,7 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 |Qwen3-235B-A22B | 92% |
 |Mistral | 14% |
 |Mistral-thinking | 98% |
-*o4-mini tried using code once and that run is not considered
 
-**Also, only Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed propoer response format. All the other models responded with extra exlanation, like, "Sure, here are 50 sentences..."**
+* o4-mini tried using code once and that run is not considered
+
+**Note: Only Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed propoer response format. All the other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Those outpus were manually extracted.**
