@@ -25,7 +25,7 @@ A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). It has
 3. Copy and paste the LLM generated response to `sgb_response.txt`.
 4. Run `sgb_eval.py` for getting the evaluation score.
 
-### Additional notes
+### Note
 
 There can be significant variation in scores from run-to-run. Ideally the benchmark would be evaluated as AVG@5 but I have not done that at this stage.
 
@@ -33,9 +33,9 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 **SOLOgenBench - 400 words of 5 letters each, 4 groups, 50 sentences**
 | Model Name               | Score   |
 |--------------------------|---------|
+|GPT-4.1-mini | 20% |
 |GPT-4o | 30% |
 |o4-mini* | 56% |
-|GPT-4.1-mini | 20% |
 |Claude-Sonnet-4 | 96% |
 |Gemini-2.5-flash | 100% |
 |Gemini-2.5-pro | 100% |
@@ -50,4 +50,7 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 
 *o4-mini tried using code once and that run is not considered
 
-**Note: Only GPT-4o, Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed accurate response format. All other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Responses from those outputs were manually extracted.**
+### Some additional notes
+
+* 400 words and 50 sentences were chosen because otherwise, they were not fitting the prompt size requirements of the models (except for Gemini).
+* Only GPT-4o, Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed accurate response format. All other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Responses from those outputs were manually extracted.
