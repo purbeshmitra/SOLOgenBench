@@ -44,6 +44,7 @@ You must generate exactly {NUM_SENTENCES_TO_GENERATE} unique four-word sentences
 3.  **Sentence Structure**: Each sentence must contain exactly four words.
 4.  **Group Order**: The words in each sentence must follow a specific group order. The first word must be from Group {GROUP_ORDER[0]}, the second from Group {GROUP_ORDER[1]}, the third from Group {GROUP_ORDER[2]}, and the fourth from Group {GROUP_ORDER[3]}.
 5.  **Output Format**: Present your answer as a numbered list of {NUM_SENTENCES_TO_GENERATE} sentences. Do not include group numbers or any other explanations in your final output.
+6.  **No Tool Usage**: Do not use any tools or code to accomplish the task.
 
 ### WORD LIST ###
 The list below contains {NUM_WORDS} words. Each word is followed by its group number in parentheses, like "word (Group X)". You must use this list to form your sentences according to the rules above.
