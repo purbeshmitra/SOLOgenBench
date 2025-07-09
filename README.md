@@ -34,21 +34,33 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 | Model Name               | Score   |
 |--------------------------|---------|
 |GPT-4.1-mini | 20% |
+|GPT-4.1 | 30% |
 |GPT-4o | 30% |
-|o4-mini* | 56% |
+|o3-mini | 100% |
+|o4-mini | 56% |
+|o3 | 100% |
+|Claude-Sonnet-3.5 | 100% |
+|Claude-Sonnet-3.7-thinking-32k | 100% |
 |Claude-Sonnet-4 | 96% |
+|Claude-Opus-4 | 96% |
+|Gemini-2.5-flash-lite | 20% |
+|Gemini-2.5-flash-lite-thinking | 96% |
 |Gemini-2.5-flash | 100% |
+|Gemini-2.5-flash-thinking | 100% |
 |Gemini-2.5-pro | 100% |
-|Grok-3 | 90% |
+|Grok-3-mini-beta | 58% |
+|Grok-3-mini-high | 100% |
+|Grok-3 | 82% |
 |Grok-3-thinking | 96% |
+|Llama-3.3-70B-instruct | 32% |
+|Llama-4-scout-17b-16e-instruct | 20% |
+|Llama-4-maverick-17b-128e-instruct | 76% |
 |Deepseek-v3 | 32% |
 |Deepseek-r1 | 64% |
 |Qwen3-235B-A22B | 10% |
-|Qwen3-235B-A22B | 92% |
+|Qwen3-235B-A22B | 40% |
 |Mistral | 14% |
-|Mistral-thinking | 98% |
-
-*o4-mini tried using code once and that run is not considered
+|Mistral-thinking | 74% |
 
 ### Some additional notes
 
