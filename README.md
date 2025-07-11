@@ -1,6 +1,6 @@
 ### What is SOLOgenBench?
 
-A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). It has the following additional features:
+A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). This version has the following additional features:
 
 - More resilient to LLM training data contamination since each run generate new word list
 - Uses made up words from random letters with proper group classification in context
