@@ -30,7 +30,7 @@ A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). It has
 There can be significant variation in scores from run-to-run. Ideally the benchmark would be evaluated as AVG@5 but I have not done that at this stage.
 
 ### Rankings at of July 8, 2025
-**SOLOgenBench - 400 words of 5 letters each, 4 groups, 50 sentences**
+**SOLOgenBench - Easy: 400 words of 5 letters each, 4 groups, 50 sentences**
 | Model Name               | Score   |
 |--------------------------|---------|
 |GPT-4.1-mini | 20% |
