@@ -65,9 +65,8 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 |Mistral | 14% |
 |Mistral-thinking | 74% |
 
-* This easy mode is chosen for accomodating all the LLMs. A lot of the LLM providers do not allow bigger prompt size.
 
 ### Some additional notes
 
-* 400 words and 50 sentences were chosen because otherwise, they were not fitting the prompt size requirements of the models (except for Gemini).
-* Only GPT-4o, Claude (in artifact), Gemini, Grok (in artifact), and Qwen models followed accurate response format. All other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Responses from those outputs were manually extracted.
+* This easy mode - 400 words and 50 sentences were chosen because otherwise, they were not fitting the prompt size requirements of the models (except for Gemini).
+* Only GPT-4o, Claude, Gemini, Grok, and Qwen models followed accurate response format. All other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Responses from those outputs were manually extracted.
