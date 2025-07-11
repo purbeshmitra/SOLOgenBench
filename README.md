@@ -5,6 +5,8 @@ A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). It has
 - More resilient to LLM training data contamination since each run generate new word list
 - Uses made up words from random letters with proper group classification in context
 - Prevents ambiguity of verb/noun/adjective classification of English words
+- No word or sentence structure memorization from training or even inference
+- Makes the LLM focus on chunks of tokens together due to random letters in words
 
 ### The following features of SOLOBench still applies to this version:
 
@@ -29,7 +31,7 @@ A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). It has
 
 There can be significant variation in scores from run-to-run. Ideally the benchmark would be evaluated as AVG@5 but I have not done that at this stage.
 
-### Rankings at of July 8, 2025
+### Rankings at of July 11, 2025
 **SOLOgenBench - Easy: 400 words of 5 letters each, 4 groups, 50 sentences**
 | Model Name               | Score   |
 |--------------------------|---------|
@@ -52,6 +54,7 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 |Grok-3-mini-high | 100% |
 |Grok-3 | 82% |
 |Grok-3-thinking | 96% |
+|Grok-4 | 100% |
 |Llama-3.3-70B-instruct | 32% |
 |Llama-4-scout-17b-16e-instruct | 20% |
 |Llama-4-maverick-17b-128e-instruct | 76% |
@@ -61,6 +64,8 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 |Qwen3-235B-A22B | 40% |
 |Mistral | 14% |
 |Mistral-thinking | 74% |
+
+* This easy mode is chosen for accomodating all the LLMs. A lot of the LLM providers do not allow bigger prompt size.
 
 ### Some additional notes
 
