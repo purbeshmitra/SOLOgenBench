@@ -31,7 +31,7 @@ A generalized version of [SOLOBench](https://github.com/jd-3d/SOLOBench). This v
 
 There can be significant variation in scores from run-to-run. Ideally the benchmark would be evaluated as AVG@5 but I have not done that at this stage.
 
-### Rankings at of July 11, 2025
+### Rankings at of July 12, 2025
 **SOLOgenBench - Easy: 400 words of 5 letters each, 4 groups, 50 sentences**
 | Model Name               | Score   |
 |--------------------------|---------|
@@ -62,6 +62,7 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 |Deepseek-r1 | 64% |
 |Qwen3-235B-A22B | 10% |
 |Qwen3-235B-A22B | 40% |
+|Kimi-K2-Instruct | 50% |
 |Mistral | 14% |
 |Mistral-thinking | 74% |
 
@@ -70,3 +71,4 @@ There can be significant variation in scores from run-to-run. Ideally the benchm
 
 * This easy mode - 400 words and 50 sentences were chosen because otherwise, they were not fitting the prompt size requirements of the models (except for Gemini).
 * Only GPT-4o, Claude, Gemini, Grok, and Qwen models followed accurate response format. All other models responded with extra exlanation, like, "Sure, here are 50 sentences..." Responses from those outputs were manually extracted.
+* SOLOgenBench Medium and Hard mode rankings will be added later.
